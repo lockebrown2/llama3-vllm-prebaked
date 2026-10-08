@@ -25,6 +25,6 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/llama3-vllm-prebaked:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/llama3-FP8-vllm-prebaked:latest
           build-args: |
             HF_TOKEN=${{ secrets.HF_TOKEN }}
